@@ -4009,7 +4009,7 @@
 
 	.banner {
 		background-color: #8a4680;
-		background-position: center 0px;
+		background-position: top 5px;
 		color: #e2d1df;
 		padding: 8em 0;
 		position: relative;
@@ -4210,6 +4210,7 @@
 
 			.banner > article img {
 				display: none;
+				background-position: top 0px;
 
 			}
 
