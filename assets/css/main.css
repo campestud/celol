@@ -4012,10 +4012,7 @@
 		color: #e2d1df;
 		padding: 8em 0;
 		position: relative;
-		background-attachment: fixed;
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: cover;
+		background-position: top 0px;
 	}
 
 		.banner input, .banner select, .banner textarea {
@@ -4051,6 +4048,7 @@
 			padding: 0;
 			min-height: 75vh;
 			height: 75vh ;
+			background-position: top 0px;
 
 		}
 
@@ -4058,6 +4056,7 @@
 			padding: 0;
 			min-height: 45vh;
 			height: 45vh ;
+			background-position: top 0px;
 		}
 
 		.banner:after {
@@ -4129,7 +4128,7 @@
 			-ms-transition: opacity 1.5s ease, visibility 1.5s;
 			transition: opacity 1.5s ease, visibility 1.5s;
 			background-attachment: fixed;
-			background-position: bottom;
+			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
 			height: 100%;
@@ -4213,6 +4212,7 @@
 
 			.banner > article img {
 				display: none;
+
 			}
 
 			.banner > article.visible {
@@ -4241,7 +4241,7 @@
 			.banner.full {
 				padding: 0;
 				min-height: 75vh;
-				height: 75vh !important;
+				height: 75vh;
 			}
 
 		}
@@ -4251,7 +4251,7 @@
 			.banner.full {
 				padding: 0;
 				min-height: 60vh;
-				height: 60vh !important;
+				height: 60vh ;
 			}
 
 			.banner > article {
