@@ -201,7 +201,7 @@ var settings = {
 					// Slide.
 						$slide
 							.css('background-image', 'url("' + $img.attr('src') + '")')
-							.css('background-position', ($slide.data('position') ? $slide.data('position') : 'top'));
+							
 
 					// Add to slides.
 						slides.push($slide);
