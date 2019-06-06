@@ -4010,6 +4010,7 @@
 	.banner {
 		background-color: #8a4680;
 		color: #e2d1df;
+		padding: 8em 0;
 		position: relative;
 	}
 
@@ -4208,8 +4209,6 @@
 
 			.banner > article img {
 				display: none;
-				background-origin: padding-box;;
-
 			}
 
 			.banner > article.visible {
@@ -4238,7 +4237,7 @@
 			.banner.full {
 				padding: 0;
 				min-height: 75vh;
-				height: 75vh 
+				height: 75vh !important;
 			}
 
 		}
@@ -4248,7 +4247,7 @@
 			.banner.full {
 				padding: 0;
 				min-height: 60vh;
-				height: 60vh;
+				height: 60vh !important;
 			}
 
 			.banner > article {
