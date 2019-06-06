@@ -4009,10 +4009,13 @@
 
 	.banner {
 		background-color: #8a4680;
-		background-position: top 5px;
 		color: #e2d1df;
 		padding: 8em 0;
 		position: relative;
+		background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
 	}
 
 		.banner input, .banner select, .banner textarea {
@@ -4126,7 +4129,7 @@
 			-ms-transition: opacity 1.5s ease, visibility 1.5s;
 			transition: opacity 1.5s ease, visibility 1.5s;
 			background-attachment: fixed;
-			background-position: center;
+			background-position: bottom;
 			background-repeat: no-repeat;
 			background-size: cover;
 			height: 100%;
@@ -4210,8 +4213,6 @@
 
 			.banner > article img {
 				display: none;
-				background-position: top 0px;
-
 			}
 
 			.banner > article.visible {
